@@ -34,18 +34,11 @@ List of considered/evaluated languages
 # Decision tree
 ## Backend
  - Clojure
-  - TODO
- - Go
-  - General purpose solution, self written. GO-to language, efficient and fast
- - Java
-  - For the purpose of Libraries and ecosystem
- - Javascript/Node.js
-  - For the purpose of Libraries and ecosystem 
- - Python
-  - Maths, AI and machine learning
-  - Optimise for IO
- - C# (.net core)
-  - When domain logic is complex and messy and GO has failed.
+ - Go: General purpose solution, self written. GO-to language, efficient and fast
+ - Java: For the purpose of Libraries and ecosystem
+ - Javascript/Node.js: For the purpose of Libraries and ecosystem 
+ - Python: Maths, BI and AI. Optimise for IO
+ - C# (.net core): Consider removing? Optionally second in line after Go, i.e when problem is to big for GO or there is a ecosystem fit
 
 ## Frontend/client
  - Browser
