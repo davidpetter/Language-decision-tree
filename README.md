@@ -1,3 +1,5 @@
+# Work in progress!
+
 # Deciding on a fit for purpose a programming language
 Opinionated Programming Language Decision Tree.
 
@@ -29,15 +31,21 @@ List of considered/evaluated languages
 - Swift
 - TypeScript
 
-
 # Decision tree
 ## Backend
  - Clojure
+  + TODO
  - Go
+  + General purpose solution, self written. GO-to language, efficient and fast
  - Java
+  + For the purpose of Libraries and ecosystem
  - Javascript/Node.js
- - Python 
- - C#
+  + For the purpose of Libraries and ecosystem 
+ - Python
+  + Maths, AI and machine learning
+  + Optimise for IO
+ - C# (.net core)
+  + When domain logic is complex and messy and GO has failed.
 
 ## Frontend/client
  - Browser
