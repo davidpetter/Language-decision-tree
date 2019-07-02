@@ -4,11 +4,11 @@
 Opinionated Programming Language Decision Tree.
 
 # Prerequisites
-Micros service architecture (service mesh), singe page applications and backend for front-end.
+Micros service architecture (service mesh) that allows polyglot languages. PWA or SPA and backend for front-end.
 
 - [Security architecture]()
 - [API Integration architecture]()
-- [Client architecture and mesh service architecture]()
+- [Application architecture]()
 
 ## Shortlist
 List of considered/evaluated languages
@@ -35,16 +35,22 @@ List of considered/evaluated languages
 
 # Decision tree
 ## Backend
- - Go
-    - General purpose solution, self written. GO-to language, efficient and fast
- - Java/Kotlin
-   - For Libraries and ecosystem
- - Javascript/Node.js
-   - For the purpose of Libraries and ecosystem 
- - Python
+ ### Go
+ General purpose solution, self written. GO-to language, efficient and fast.
+
+ ### Java/Kotlin
+ For Libraries and ecosystem
+ ### Javascript/Node.js
+ For the purpose of Libraries and ecosystem
+ ### Python
    - Maths, BI and AI. Optimise for IO
- - C# (.net core)
-   - Consider removing? Optionally second in line after Go, i.e when problem is to big for GO or there is a ecosystem fit
+   - Scripting
+   - Prototyping
+   - For the purpose of Libraries and ecosystem
+ ### C# (.net core)
+   - When there is a fit in echosystem (like Service fabric etc.)
+   - Application is a bit to large for GO
+   - Want to use MVC for frontend.
 
 ## Frontend/client
  - Browser
