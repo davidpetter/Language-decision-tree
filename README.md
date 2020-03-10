@@ -46,6 +46,7 @@ List of considered/evaluated languages
  
  Bad fit
  - Large implementations (monolithical)
+ - Dependency mmanagement and libraries
  
  ### Java/Kotlin/Scala
  General purpose solution that often related to integration or security. 
@@ -62,23 +63,38 @@ List of considered/evaluated languages
 
  ### Javascript/Node.js
  
+ Good fit
  - Prototyping
  - For the purpose of libraries and ecosystem
  - A good fit for small single threaded tasks
  - Transformation support
  - Want to have same language for backend and frontend 
+ 
+ Bad fit
+ - Concurrency and multi threading
+ - Large implementations (monolithical)
 
  ### Python
+ 
+ Good fit
    - Maths, BI and AI. Optimise for IO
    - Scripting
    - Prototyping
    - For the purpose of libraries and ecosystem
 
+ Bad fit
+   -
+
 ### C# (.net core)
+
+ Good fit
    - When there is a fit in echosystem (like Service fabric etc.)
    - Small to large implementations
    - Want to use MVC for frontend.
-   
+  
+  Bad fit
+    - 
+    
 ## Frontend/client
  - Browser
    - Javascript
