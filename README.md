@@ -64,6 +64,8 @@ List of considered/evaluated languages
  - Strict hardware requirements
  - IO operations
  - Memory requirements (Managing images etc)
+ - Small sytem and want to avoid boilerplate
+
 
  ### Javascript/Node.js
  
@@ -82,17 +84,6 @@ List of considered/evaluated languages
  - Large implementations (monolithical)
  - Want to optimize for CPU
 
- ### Python
- 
- Good fit
-   - Maths, BI and AI. Optimise for IO
-   - Scripting
-   - Prototyping
-   - For the purpose of libraries and ecosystem
-
- Bad fit
-   -
-
 ### C# (.net core)
 
  Good fit
@@ -102,6 +93,17 @@ List of considered/evaluated languages
   
   Bad fit
     - Echosystem and libraries (getting better).
+    - Small sytem and want to avoid boilerplate
+
+ ### Python
+ 
+ Good fit
+   - Maths, BI and AI. Optimise for IO
+   - Scripting
+   - Prototyping
+   - For the purpose of libraries and ecosystem
+ Bad fit
+   -
     
 ## Frontend/client
  - Browser
