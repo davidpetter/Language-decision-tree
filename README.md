@@ -51,6 +51,10 @@ List of considered/evaluated languages
  ### Java/Kotlin/Scala
  General purpose solution that often related to integration or security. 
  
+ Usage:
+ Messaging, web application, highly concurrent application
+ 
+ 
  Good fit:
  - For the purpose of libraries and ecosystem.
  - A good fit for medium to large size implementations that doesn't have strict resource constraints.
@@ -63,16 +67,20 @@ List of considered/evaluated languages
 
  ### Javascript/Node.js
  
+ Highly useful when scalable and faster application is required. More suited for an application like real-time collaborative.
+ 
  Good fit
  - Prototyping
  - For the purpose of libraries and ecosystem
  - A good fit for small single threaded tasks
  - Transformation support
  - Want to have same language for backend and frontend 
+ - Want to optimize for IO
  
  Bad fit
  - Concurrency and multi threading
  - Large implementations (monolithical)
+ - Want to optimize for CPU
 
  ### Python
  
@@ -93,7 +101,7 @@ List of considered/evaluated languages
    - Want to use MVC for frontend.
   
   Bad fit
-    - 
+    - Echosystem and libraries (getting better).
     
 ## Frontend/client
  - Browser
